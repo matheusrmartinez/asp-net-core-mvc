@@ -45,7 +45,6 @@ namespace SalesWebMvc.Services
             {
                 throw new IntegrityException("Can't delete seller because she/he has sales registered") ;
             }
-            
         }
 
         public async Task UpdateAsync (Seller obj)
